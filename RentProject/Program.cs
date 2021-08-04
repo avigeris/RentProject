@@ -49,7 +49,7 @@ namespace RentProject
         static void Main(string[] args)
         {
             //connection
-            string connectionString = "AuthType=OAuth;Username=daria@carrentingproject.onmicrosoft.com;Password=Nwi3S68X@6LvEtj;Url=https://org6f2b141d.crm4.dynamics.com;AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;";
+            string connectionString = "";
             CrmServiceClient service = new CrmServiceClient(connectionString);
             OrganizationServiceContext context = new OrganizationServiceContext(service);
             
